@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-comment-input {
+  width: calc(100vw - 100px);
+  height: 30px;
+}
+
+.main-input-box {
+  display: flex;
+}
