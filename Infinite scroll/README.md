@@ -1,3 +1,19 @@
+  1. window.innerHeight== inner height of window view port
+
+     
+  3. window.scrollY == scrolled height means gone up in window
+     
+  4. document.body.scrollHeight == DOM height
+
+  5. window.innerHeight + window.scrollY + 1 >= document.body.scrollHeight ===>> at the end of scroll formula
+
+
+
+
+
+
+
+
 import { useEffect, useState } from 'react';
 import MemeCard from './memeCard';
 import './body.css';
@@ -15,6 +31,8 @@ function Body() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+ 
 
   function handleScroll() {
     console.log(
