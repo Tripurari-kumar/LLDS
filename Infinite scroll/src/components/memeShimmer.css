@@ -1,0 +1,16 @@
+.wrapper {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.meme-img {
+  background-color: lightgrey;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
